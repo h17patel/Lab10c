@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.js Project</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background-color: #ecf0f1;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #3498db;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>The way I installed the framework:</h1>
+    <p>
+    1. Install Node.js:
+    - Ensure I have Node.js installed on my machine.
+    </p>
+    <p>
+        2. Create Node.js Project:
+    - I set up a new Node.js project using `npm init -y` in the terminal.
+    </p>
+    
+    <p>
+        3. Install Express:
+    - I execute `npm install express` to install the Express framework.
+    </p>
+    
+    <p>
+        4. Create Express App:
+        - I develop an Express app by creating a file, e.g., `app.js`, and defining basic routes.
+    </p>
+   
+    <p> 5. Install Templating Engine:
+        - I install a templating engine like Pug using `npm install pug`.
+    </p>
+   
+    <p>
+        6. Create Views Directory:
+        - I establish a `views` directory to store my template files.
+    </p>
+   
+    <p>
+        7. Configure View Engine:
+        - I set the view engine in my Express app, e.g., `app.set('view engine', 'pug')`.
+    </p>
+  
+    <p>
+        8. Define Templates:
+        - I create template files in the `views` directory to structure the HTML content.
+    </p>
+   
+    <p>
+        9. Pass Data to Templates:
+        - I pass data from the server to templates using the `res.render()` method.
+    </p>
+   
+    <p>
+        10. Run Express App:
+        - I start the Express app with `node app.js` to run the server and view the project locally.
+    </p>
+   
+    <h1>The challenges I encountered and the potential solutions I found:</h1>
+    <ul>
+        <% details.forEach(detail => { %>
+            <li>
+                <h2><%= detail.difficulty %></h2>
+                <p><%= detail.solution %></p>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>
